@@ -1,4 +1,4 @@
-# SInternetofThings
+# SInternetOfThings
 
 
 Project provides basic idea and approach to implement the **IOT (Internet of things)** device connection and communication by using **Swift** native codes
