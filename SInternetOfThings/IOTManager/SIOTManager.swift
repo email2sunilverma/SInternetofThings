@@ -19,6 +19,7 @@ class SiOTManager {
     static let shared = SiOTManager()
     private var mqtt: CocoaMQTT!
     
+    // MARK: Only one device should be connected at a time
     func connectDevice() {
         
         let clientID = "your-client-id"
@@ -33,6 +34,7 @@ class SiOTManager {
         //        mqtt.keepAlive = true
         _ = mqtt.connect()
     }
+    
     func connectDevice(device: SIOTDevice) {
         mqtt = CocoaMQTT(clientID: device.clientId, host: device.host, port: device.post)
         mqtt.delegate = self

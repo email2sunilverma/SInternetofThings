@@ -22,6 +22,7 @@
 		BF7A5A032C1D9C15003E2641 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF7A5A062C1D9C15003E2641 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BF7A5A0E2C1D9C76003E2641 /* SIOTManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIOTManager.swift; sourceTree = "<group>"; };
+		BF7A5A132C1D9FD3003E2641 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +56,7 @@
 		BF7A59FE2C1D9C14003E2641 /* SInternetOfThings */ = {
 			isa = PBXGroup;
 			children = (
+				BF7A5A132C1D9FD3003E2641 /* Info.plist */,
 				BF7A5A0D2C1D9C59003E2641 /* IOTManager */,
 				BF7A59FF2C1D9C14003E2641 /* SInternetOfThingsApp.swift */,
 				BF7A5A012C1D9C14003E2641 /* ContentView.swift */,
@@ -289,6 +291,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SInternetOfThings/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SInternetOfThings/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -317,6 +320,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SInternetOfThings/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SInternetOfThings/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -12,6 +12,8 @@ struct ContentView: View {
         VStack {
             Button("Connect") {
                 SiOTManager.shared.connectDevice()
+                let idetifire = ProcessInfo().processIdentifier
+                print(idetifire)
             }
             
             Button("Connect Device") {
