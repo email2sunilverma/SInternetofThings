@@ -6,7 +6,7 @@ Project provides basic idea and approach to implement the **IOT (Internet of thi
 # HOW To Use
 * Innstall the SPM for **CocoaMQTT** in your project
 * Drag and drop the SIOTManager class in your project
-* **Replace the proper value of Device inof like clientID, Host and PORT**
+* **Replace the proper value of Device info like clientID, Host and PORT**
 * call the method **func connectDevice()** with acuall information provided by the device Vendor
 * based the required 
   
